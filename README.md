@@ -10,7 +10,7 @@ A simple web application for managing a car rental service, built with **PHP** a
 - Book a car by selecting pickup and return dates
 - View and cancel their bookings
 
-### Admin (coming soon)
+### Admin 
 - Login to admin panel
 - Add, edit, or delete car listings
 - View and manage customer bookings
