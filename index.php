@@ -1,15 +1,8 @@
-<!Doctype html>
-<html>
-<head>
-<title>Car Rentals Shop</title>
-</head>
-<body style="background-color: rgb(236, 214, 211);">
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About</a></li>
-    </ul>
-</nav>
-</body>
-</html>
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+echo "Welcome, " . $_SESSION['user'] . " | <a href='logout.php'>Logout</a>";
+?>

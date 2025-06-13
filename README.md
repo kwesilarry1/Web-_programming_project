@@ -2,6 +2,8 @@
 
 A simple web application for managing a car rental service, built with **PHP** and **MySQL**. This project was developed as part of a semester-long Web Programming course.
 
+**The project is under development, stay tuned**
+
 ## ✨ Features
 
 ### User
